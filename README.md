@@ -8,6 +8,7 @@ Simple desktop app using Electronjs, Reactjs, Expressjs, and Postgresql
 ``` bash
 # npm
 npm i -g pkg
+
 # if you prefer yarn
 yarn add -g pkg
 
@@ -19,7 +20,7 @@ yarn
 
 ## Usage
 
-You can customize ``pkg`` and ``electron`` config depend on your machine.
+You can customize ``pkg`` and ``electron`` config depend on your machine or requirements.
 ``` bash
 # /client
 yarn electron-pack # build the React app
@@ -27,5 +28,9 @@ yarn electron-pack # build the React app
 # /server
 pkg . # build the server
 ```
+Electron docs: https://www.electronjs.org/docs </br>
+Electron Builder, build tool for Electron: https://github.com/electron-userland/electron-builder </br>
+pkg docs: https://github.com/vercel/pkg
+
 ##
 Maintained under MIT license by [Kalwabed Rizki](https://kawari.space)
