@@ -1,0 +1,73 @@
+{
+  "name": "perpusin",
+  "version": "0.1.0",
+  "description": "Perpus app",
+  "homepage": "./",
+  "main": "./public/main.js",
+  "license": "MIT",
+  "author": {
+    "name": "Kalwabed Rizki",
+    "email": "kalwabed@go.io"
+  },
+  "private": true,
+  "dependencies": {
+    "@geist-ui/react": "^2.1.0-canary.2",
+    "@geist-ui/react-icons": "^1.0.1",
+    "electron-is-dev": "^1.2.0",
+    "ky": "^0.25.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-query": "^2.26.3",
+    "react-query-devtools": "^2.6.3",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.0",
+    "tinytime": "^0.2.6"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "electron": "^11.0.2",
+    "electron-builder": "^22.9.1",
+    "wait-on": "^5.2.0"
+  },
+  "scripts": {
+    "preelectron-pack": "npm run build",
+    "electron-pack": "electron-builder -c.extraMetadata.main=build/main.js",
+    "dev": "concurrently \"npm start\" \"wait-on http://localhost:3000 && electron .\"",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "build": {
+    "linux": {
+      "target": [
+        {
+          "target": "deb"
+        }
+      ]
+    },
+    "appId": "nonExistentID",
+    "files": [
+      "build/**/*",
+      "node_modules/**/*"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
