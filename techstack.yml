@@ -1,7 +1,8 @@
 repo_name: kalwabed/perpusin
 report_id: 5bd27a9feca8f5b37d2280ab6e73e8b4
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-10T13:46:59+00:00'
+timestamp: '2024-01-05T08:54:39+00:00'
 requested_by: kalwabed
 provider: github
 branch: main
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/kalwabed/perpusin
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/kalwabed/perpusin
   detection_source: Repo Metadata
 - name: Electron
   description: Build cross platform desktop apps with JavaScript, HTML, and CSS
@@ -36,7 +39,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Cross-Platform Desktop Development
   image_url: https://img.stackshare.io/service/2946/default_18a71b65e69d7aef5f218ae07f64eb6e1594c444.jpg
-  detection_source_url: client/yarn.lock
+  detection_source_url: https://github.com/kalwabed/perpusin/blob/main/client/yarn.lock
   detection_source: client/package.json
   last_updated_by: kaliwa
   last_updated_on: 2020-11-25 12:47:31.000000000 Z
@@ -51,7 +54,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Microframeworks (Backend)
   image_url: https://img.stackshare.io/service/1163/hashtag.png
-  detection_source_url: client/yarn.lock
+  detection_source_url: https://github.com/kalwabed/perpusin/blob/main/client/yarn.lock
   detection_source: server/package.json
   last_updated_by: kaliwa
   last_updated_on: 2020-11-25 12:47:31.000000000 Z
@@ -65,7 +68,7 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
-  detection_source_url: client/yarn.lock
+  detection_source_url: https://github.com/kalwabed/perpusin/blob/main/client/yarn.lock
   detection_source: client/package.json
   last_updated_by: kaliwa
   last_updated_on: 2020-11-25 12:47:31.000000000 Z
@@ -79,7 +82,7 @@ tools:
   category: Libraries
   sub_category: JavaScript Framework Components
   image_url: https://img.stackshare.io/service/3350/8261421.png
-  detection_source_url: client/yarn.lock
+  detection_source_url: https://github.com/kalwabed/perpusin/blob/main/client/yarn.lock
   detection_source: client/package.json
   last_updated_by: kaliwa
   last_updated_on: 2020-11-25 12:47:31.000000000 Z
@@ -91,6 +94,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/kalwabed/perpusin/blob/main/server/package.json
   detection_source: server/package.json
   last_updated_by: kaliwa
   last_updated_on: 2020-11-25 12:47:31.000000000 Z
@@ -103,6 +107,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Server Configuration and Automation
   image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/kalwabed/perpusin/blob/main/server/package.json
   detection_source: server/package.json
   last_updated_by: kaliwa
   last_updated_on: 2020-11-25 12:47:31.000000000 Z
@@ -114,6 +119,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/kalwabed/perpusin
   detection_source: Repo Metadata
 - name: Yarn
   description: A new package manager for JavaScript
@@ -123,7 +129,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
-  detection_source: server/yarn.lock
+  detection_source_url: https://github.com/kalwabed/perpusin/blob/main/client/yarn.lock
+  detection_source: client/yarn.lock
   last_updated_by: kaliwa
   last_updated_on: 2020-11-25 12:47:31.000000000 Z
 - name: npm
@@ -134,6 +141,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/kalwabed/perpusin/blob/main/server/package.json
   detection_source: server/package.json
   last_updated_by: kaliwa
   last_updated_on: 2020-11-25 12:47:31.000000000 Z
@@ -146,6 +154,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/kalwabed/perpusin
   detection_source: Repo Metadata
 - name: concurrently
   description: Run commands concurrently
@@ -157,7 +166,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16041/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: client/yarn.lock
+  detection_source_url: https://github.com/kalwabed/perpusin/blob/main/client/yarn.lock
   detection_source: client/package.json
   last_updated_by: kaliwa
   last_updated_on: 2020-11-25 12:47:31.000000000 Z
@@ -171,7 +180,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16165/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
-  detection_source_url: server/yarn.lock
+  detection_source_url: https://github.com/kalwabed/perpusin/blob/main/server/yarn.lock
   detection_source: server/package.json
   last_updated_by: kaliwa
   last_updated_on: 2020-11-25 12:47:31.000000000 Z
@@ -186,7 +195,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17567/default_cce6af1cc5c037d170650dfd256f479915d5a8e4.png
-  detection_source_url: client/yarn.lock
+  detection_source_url: https://github.com/kalwabed/perpusin/blob/main/client/yarn.lock
   detection_source: client/package.json
   last_updated_by: kaliwa
   last_updated_on: 2020-11-25 12:47:31.000000000 Z
@@ -200,7 +209,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: client/yarn.lock
+  detection_source_url: https://github.com/kalwabed/perpusin/blob/main/client/yarn.lock
   detection_source: server/package.json
   last_updated_by: kaliwa
   last_updated_on: 2020-11-25 12:47:31.000000000 Z
@@ -221,7 +230,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16197/default_3d197518f6bb529bfcc1b685e2cefbdfe83ff108.png
-  detection_source_url: server/yarn.lock
+  detection_source_url: https://github.com/kalwabed/perpusin/blob/main/server/yarn.lock
   detection_source: server/package.json
   last_updated_by: kaliwa
   last_updated_on: 2020-11-25 12:47:31.000000000 Z
@@ -235,7 +244,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: client/yarn.lock
+  detection_source_url: https://github.com/kalwabed/perpusin/blob/main/client/yarn.lock
   detection_source: client/package.json
   last_updated_by: kaliwa
   last_updated_on: 2020-11-25 12:47:31.000000000 Z
@@ -249,7 +258,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
-  detection_source_url: client/yarn.lock
+  detection_source_url: https://github.com/kalwabed/perpusin/blob/main/client/yarn.lock
   detection_source: client/package.json
   last_updated_by: kaliwa
   last_updated_on: 2020-11-25 12:47:31.000000000 Z
@@ -263,7 +272,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: client/yarn.lock
+  detection_source_url: https://github.com/kalwabed/perpusin/blob/main/client/yarn.lock
   detection_source: client/package.json
   last_updated_by: kaliwa
   last_updated_on: 2020-11-25 12:47:31.000000000 Z
@@ -278,7 +287,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17821/default_a53af9d6b5a4c8c6e8d5f8494d76a8d2efd3e660.png
-  detection_source_url: client/yarn.lock
+  detection_source_url: https://github.com/kalwabed/perpusin/blob/main/client/yarn.lock
   detection_source: client/package.json
   last_updated_by: kaliwa
   last_updated_on: 2020-11-25 12:47:31.000000000 Z
